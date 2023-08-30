@@ -1,5 +1,5 @@
 # set working directory
-setwd("C:/Users/SURHUD/Desktop/Desktop/Stats/For/For Krutika Kadam/DR")
+setwd("your/working/directory")
 
 # import libraries
 library(readxl)
@@ -9,7 +9,7 @@ library(flextable)
 library(ggpubr)
 
 # import data
-df <- read_excel("C:/Users/SURHUD/Desktop/Desktop/Stats/For/For Krutika Kadam/DR/data.xlsx")
+df <- read_excel("your/working/directory/data.xlsx")
 attach(df)
 df %>% colnames
 
